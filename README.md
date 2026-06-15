@@ -1,13 +1,40 @@
-# Viridian Storm for VS Code 🌩️
+<h1 align="center">
+  Viridian Storm <code>🗲</code> for VS Code <br>
+  <img src="img/screenshot.png" alt="Editor Overview" width="800">
+</h1>
 
-> *Dark teal depths meet neon violets, hot pinks, and acid yellows — built for those who code in the eye of the storm.*
+<p align="center">
+  <em>⚡ Dark teal depths meet neon violets, hot pinks, and acid yellows — built for those who code in the eye of the storm.</em>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/version-0.0.2-ff247f?style=flat-square" alt="version">
+  <img src="https://img.shields.io/badge/license-MIT-00df95?style=flat-square" alt="license">
+  <img src="https://img.shields.io/badge/VS%20Code-%5E1.120.0-0da0ba?style=flat-square" alt="vscode">
+  <img src="https://img.shields.io/badge/theme-dark-16222a?style=flat-square" alt="dark">
+</p>
+
+---
 
 A dark **Visual Studio Code** theme inspired by **Tokyo Night Storm** and **Dracula**. Deep teal backgrounds combined with vibrant neon accents — purple, hot pink, and acid yellow.
+
+---
+
+## ✨ Supported Languages
+
+| Language | Badge |
+|----------|-------|
+| ⚛️ **React / JSX / TSX** | `useReducer`, `useState`, typed components |
+| 🔷 **TypeScript** | Classes, generics, async, interfaces, types, functions |
+| 🐍 **Python** | Classes, decorators, file processing, pandas-style logic |
+| 📄 **.env files** | Variables, comments, strings, booleans, numbers |
+
+---
 
 ## 🎨 Color Palette
 
 | Element | Color | Hex |
-|---------|-------|-----|
+|---------|-------|------|
 | Editor Background | Dark Teal | `#16222a` |
 | Foreground | Light Blue | `#d1e0eb` |
 | Line Highlight | Dark Blue | `#1e3039` |
@@ -19,67 +46,51 @@ A dark **Visual Studio Code** theme inspired by **Tokyo Night Storm** and **Drac
 | Errors | Red | `#ff2f2f` |
 | Warnings | Yellow | `#ffdd00` |
 
-## 🚀 Installation
+---
 
-### From VS Code Marketplace
+## 📦 Installation
 
-1. Open **Extensions** (`Ctrl+Shift+X`)
-2. Search for **"Viridian Storm"**
-3. Click **Install**
-4. Open Command Palette (`Ctrl+Shift+P`) → `Preferences: Color Theme` → select **Viridian Storm**
+**VS Code Marketplace** → `Ctrl+Shift+X` → search `Viridian Storm` → Install → `Ctrl+Shift+P` → `Preferences: Color Theme` → **Viridian Storm**
 
-### From .vsix file
-
-1. Download `.vsix` from [Releases](https://github.com/Yuri-Weyland/Viridian-Storm/releases)
-2. In VS Code: **Extensions** (`Ctrl+Shift+X`) → `...` → **Install from VSIX...**
-3. Select the downloaded file
-
-### From source
+Or install from terminal:
 
 ```bash
-git clone https://github.com/Yuri-Weyland/Viridian-Storm.git
-cd Viridian-Storm
-npm install -g @vscode/vsce
-vsce package
-code --install-extension viridian-storm-*.vsix
+code --install-extension weylandyuri.viridian-storm-vscode
 ```
 
-## 📦 Packaging & Publishing
+---
 
-```bash
-# Install vsce
-npm install -g @vscode/vsce
+## 📸 Screenshots
 
-# Package into .vsix
-vsce package
+<table>
+  <tr>
+    <td><strong>🔷 TypeScript: Classes, Generics & Async</strong></td>
+    <td><strong>⚛️ React + TypeScript: useReducer Counter</strong></td>
+  </tr>
+  <tr>
+    <td><img src="img/screenshot3.png" width="100%"></td>
+    <td><img src="img/screenshot1.png" width="100%"></td>
+  </tr>
+  <tr>
+    <td><strong>🔷 TypeScript: Interfaces, Types & Functions</strong></td>
+    <td><strong>⚛️ React + TypeScript: Typed Component</strong></td>
+  </tr>
+  <tr>
+    <td><img src="img/screenshot4.png" width="100%"></td>
+    <td><img src="img/screenshot5.png" width="100%"></td>
+  </tr>
+  <tr>
+    <td><strong>🐍 Python: Data Analysis (pandas-style)</strong></td>
+    <td><strong>🐍 Python: Classes, Decorators & File Processing</strong></td>
+  </tr>
+  <tr>
+    <td><img src="img/screenshot2.png" width="100%"></td>
+    <td><img src="img/screenshot6.png" width="100%"></td>
+  </tr>
+</table>
 
-# Publish to Marketplace
-vsce publish
-```
+---
 
 ## 📄 License
 
 MIT © [Yuri Weyland](https://github.com/Yuri-Weyland)
-
-## 📸 Screenshots
-
-### Editor Overview (no code)
-![Editor Overview](img/screenshot.png)
-
-### React + TypeScript: useReducer Counter
-![React + TypeScript: useReducer Counter](img/screenshot1.png)
-
-### Python: Data Analysis with Pandas-style logic
-![Python: Data Analysis](img/screenshot2.png)
-
-### TypeScript: Classes, Generics & Async
-![TypeScript: Classes, Generics & Async](img/screenshot3.png)
-
-### TypeScript: Interfaces, Types & Functions
-![TypeScript: Interfaces, Types & Functions](img/screenshot4.png)
-
-### React + TypeScript: Typed Component
-![React + TypeScript: Typed Component](img/screenshot5.png)
-
-### Python: Classes, Decorators & File Processing
-![Python: Classes, Decorators & File Processing](img/screenshot6.png)
