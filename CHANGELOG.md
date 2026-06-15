@@ -4,6 +4,12 @@ All notable changes to the "viridian-storm" extension will be documented in this
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## [0.0.2] - 2026-06-15
+
+### Added
+- .env file syntax highlighting support 🗲
+- Custom colors for: variables, strings, comments, numbers, booleans, null, escape chars, export keyword
+
 ## [0.0.1] - 2026-06-15
 
 ### Added

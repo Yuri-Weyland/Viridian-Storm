@@ -2,7 +2,7 @@
   "name": "viridian-storm-vscode",
   "displayName": "Viridian Storm for VS Code",
   "description": "Inspired by Tokyo Night Storm & Dracula. Dark teal depths meet neon violets, hot pinks, and acid yellows — built for those who code in the eye of the storm.",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "publisher": "WeylandYuri",
   "license": "MIT",
   "icon": "icon.png",
