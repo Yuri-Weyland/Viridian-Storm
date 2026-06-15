@@ -1759,6 +1759,102 @@
         "foreground": "#ffb86c",
         "fontStyle": ""
       }
+    },
+    {
+      "scope": "source.env",
+      "settings": {
+        "foreground": "#d1e0eb"
+      }
+    },
+    {
+      "scope": "comment.line.number-sign.env",
+      "settings": {
+        "foreground": "#607885"
+      }
+    },
+    {
+      "scope": "punctuation.definition.comment.env",
+      "settings": {
+        "foreground": "#607885"
+      }
+    },
+    {
+      "scope": "variable.other.env",
+      "settings": {
+        "foreground": "#ffb86c"
+      }
+    },
+    {
+      "scope": "keyword.operator.assignment.env",
+      "settings": {
+        "foreground": "#8299a8"
+      }
+    },
+    {
+      "scope": "string.unquoted.env",
+      "settings": {
+        "foreground": "#9ece6a"
+      }
+    },
+    {
+      "scope": "string.quoted.single.env",
+      "settings": {
+        "foreground": "#9ece6a"
+      }
+    },
+    {
+      "scope": "string.quoted.double.env",
+      "settings": {
+        "foreground": "#9ece6a"
+      }
+    },
+    {
+      "scope": "punctuation.definition.string.begin.env",
+      "settings": {
+        "foreground": "#9ece6a"
+      }
+    },
+    {
+      "scope": "punctuation.definition.string.end.env",
+      "settings": {
+        "foreground": "#9ece6a"
+      }
+    },
+    {
+      "scope": "constant.character.escape.env",
+      "settings": {
+        "foreground": "#ff5a00"
+      }
+    },
+    {
+      "scope": "constant.numeric.env",
+      "settings": {
+        "foreground": "#ff5a00"
+      }
+    },
+    {
+      "scope": "constant.language.boolean.env",
+      "settings": {
+        "foreground": "#4dd5ff"
+      }
+    },
+    {
+      "scope": "constant.language.null.env",
+      "settings": {
+        "foreground": "#4dd5ff"
+      }
+    },
+    {
+      "scope": "punctuation.definition.variable.env",
+      "settings": {
+        "foreground": "#ff247f"
+      }
+    },
+    {
+      "scope": "keyword.control.env",
+      "settings": {
+        "foreground": "#bb9af7"
+      }
     }
   ]
 }
