@@ -1,16 +1,73 @@
-# viridian-storm README
+# Viridian Storm 🌩️
 
-## Working with Markdown
+> *Dark teal depths meet neon violets, hot pinks, and acid yellows — built for those who code in the eye of the storm.*
 
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
+A dark **Visual Studio Code** theme inspired by **Tokyo Night Storm** and **Dracula**. Deep teal backgrounds combined with vibrant neon accents — purple, hot pink, and acid yellow.
 
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
+## 🎨 Color Palette
 
-## For more information
+| Element | Color | Hex |
+|---------|-------|-----|
+| Editor Background | Dark Teal | `#16222a` |
+| Foreground | Light Blue | `#d1e0eb` |
+| Line Highlight | Dark Blue | `#1e3039` |
+| Cursor | Light Blue | `#d1e0eb` |
+| Selection | Blue | `#267ead55` |
+| Line Numbers | Gray | `#3e5764` |
+| Active Line Number | **Hot Pink** 🔥 | `#ff247f` |
+| Brackets | Orange / Cyan / Green | `#FF5A00` / `#00E1FF` / `#10FF00` |
+| Errors | Red | `#ff2f2f` |
+| Warnings | Yellow | `#ffdd00` |
 
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
+## 📸 Screenshots
 
-**Enjoy!**
+![Screenshot 1](img/screenshot1.png)
+
+![Screenshot 2](img/screenshot2.png)
+
+![Screenshot 3](img/screenshot3.png)
+
+![Screenshot 4](img/screenshot4.png)
+
+![Screenshot 5](img/screenshot5.png)
+
+![Screenshot 6](img/screenshot6.png)
+
+## 🚀 Installation
+
+### From VS Code Marketplace
+1. Open **Extensions** (`Ctrl+Shift+X`)
+2. Search for **"Viridian Storm"**
+3. Click **Install**
+4. Open Command Palette (`Ctrl+Shift+P`) → `Preferences: Color Theme` → select **Viridian Storm**
+
+### From .vsix file
+1. Download `.vsix` from [Releases](https://github.com/Yuri-Weyland/Viridian-Storm/releases)
+2. In VS Code: **Extensions** (`Ctrl+Shift+X`) → `...` → **Install from VSIX...**
+3. Select the downloaded file
+
+### From source
+```bash
+git clone https://github.com/Yuri-Weyland/Viridian-Storm.git
+cd Viridian-Storm
+npm install -g @vscode/vsce
+vsce package
+code --install-extension viridian-storm-*.vsix
+```
+
+## 📦 Packaging & Publishing
+
+```bash
+# Install vsce
+npm install -g @vscode/vsce
+
+# Package into .vsix
+vsce package
+
+# Publish to Marketplace
+vsce publish
+```
+
+## 📄 License
+
+MIT © [Yuri Weyland](https://github.com/Yuri-Weyland)

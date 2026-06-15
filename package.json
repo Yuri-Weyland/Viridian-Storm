@@ -3,12 +3,29 @@
   "displayName": "Viridian Storm",
   "description": "Inspired by Tokyo Night Storm & Dracula. Dark teal depths meet neon violets, hot pinks, and acid yellows — built for those who code in the eye of the storm.",
   "version": "0.0.1",
+  "publisher": "WeylandYuri",
+  "license": "MIT",
+  "icon": "icon.png",
   "engines": {
     "vscode": "^1.120.0"
   },
   "categories": [
     "Themes"
   ],
+  "keywords": [
+    "theme",
+    "dark",
+    "teal",
+    "neon",
+    "viridian",
+    "storm",
+    "tokyo night",
+    "dracula"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Yuri-Weyland/Viridian-Storm.git"
+  },
   "contributes": {
     "themes": [
       {
