@@ -2,7 +2,7 @@
   "name": "viridian-storm-vscode",
   "displayName": "Viridian Storm for VS Code",
   "description": "A dark Visual Studio Code theme inspired by Tokyo Night Storm & Dracula. Deep teal backgrounds with neon violet, hot pink, and acid yellow accents. Features syntax highlighting for TypeScript, React, Python, and .env files.",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "publisher": "WeylandYuri",
   "license": "MIT",
   "icon": "icon.png",
