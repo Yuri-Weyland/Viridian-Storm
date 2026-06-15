@@ -14,6 +14,17 @@
   <img src="https://img.shields.io/badge/theme-dark-16222a?style=flat-square" alt="dark">
 </p>
 
+<p align="center">
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript">
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript">
+  <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" alt="React">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python">
+  <img src="https://img.shields.io/badge/HTML-E34F26?style=flat-square&logo=html5&logoColor=white" alt="HTML">
+  <img src="https://img.shields.io/badge/CSS-1572B6?style=flat-square&logo=css3&logoColor=white" alt="CSS">
+  <img src="https://img.shields.io/badge/SCSS-CC6699?style=flat-square&logo=sass&logoColor=white" alt="SCSS">
+  <img src="https://img.shields.io/badge/.env-9ece6a?style=flat-square" alt=".env">
+</p>
+
 ---
 
 A dark **Visual Studio Code** theme inspired by **Tokyo Night Storm** and **Dracula**. Deep teal backgrounds combined with vibrant neon accents — purple, hot pink, and acid yellow.
@@ -24,7 +35,7 @@ A dark **Visual Studio Code** theme inspired by **Tokyo Night Storm** and **Drac
 
 | Feature | Description |
 |---------|-------------|
-| 🌈 **Colorful Syntax** | Functions, classes, keywords, strings, numbers, types — each with a distinct neon color. Your code becomes a visual hierarchy. |
+| 🌈 **Colorful Syntax** | ✨ TypeScript, JavaScript, React, Python, HTML, CSS, SCSS, `.env` — each language gets its own distinct neon palette. Code becomes visual hierarchy. |
 | 🔲 **Rainbow Brackets** | Brackets are color-coded in multiple neon hues with matching pair guides — never lose track of nesting. |
 | 🔥 **Hot Pink Line Numbers** | The active line number glows in hot pink so you always know where you are. |
 | 📄 **.env Support** | `.env` files get full syntax highlighting — variables, strings, numbers, booleans, comments, and export keywords all styled out of the box. |
