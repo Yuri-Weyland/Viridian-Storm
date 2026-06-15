@@ -1,4 +1,4 @@
-# Viridian Storm 🌩️
+# Viridian Storm 🗲🌩️
 
 > *Dark teal depths meet neon violets, hot pinks, and acid yellows — built for those who code in the eye of the storm.*
 
