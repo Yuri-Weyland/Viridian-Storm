@@ -1855,6 +1855,48 @@
       "settings": {
         "foreground": "#bb9af7"
       }
+    },
+    {
+      "scope": "comment.line.dotenv",
+      "settings": {
+        "foreground": "#607885"
+      }
+    },
+    {
+      "scope": "variable.key.dotenv",
+      "settings": {
+        "foreground": "#ffb86c"
+      }
+    },
+    {
+      "scope": "keyword.operator.assignment.dotenv",
+      "settings": {
+        "foreground": "#8299a8"
+      }
+    },
+    {
+      "scope": "property.value.dotenv",
+      "settings": {
+        "foreground": "#9ece6a"
+      }
+    },
+    {
+      "scope": "string.quoted.single.dotenv",
+      "settings": {
+        "foreground": "#9ece6a"
+      }
+    },
+    {
+      "scope": "string.quoted.double.dotenv",
+      "settings": {
+        "foreground": "#9ece6a"
+      }
+    },
+    {
+      "scope": "variable.interpolation.dotenv",
+      "settings": {
+        "foreground": "#ff247f"
+      }
     }
   ]
 }
