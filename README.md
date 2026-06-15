@@ -12,6 +12,7 @@
   <img src="https://img.shields.io/badge/license-MIT-00df95?style=flat-square" alt="license">
   <img src="https://img.shields.io/badge/VS%20Code-%5E1.120.0-0da0ba?style=flat-square" alt="vscode">
   <img src="https://img.shields.io/badge/theme-dark-16222a?style=flat-square" alt="dark">
+  <img src="https://img.shields.io/badge/.env-ready-9ece6a?style=flat-square" alt="env">
 </p>
 
 ---
@@ -20,14 +21,49 @@ A dark **Visual Studio Code** theme inspired by **Tokyo Night Storm** and **Drac
 
 ---
 
-## ✨ Supported Languages
+## ✨ Features
 
-| Language | Badge |
-|----------|-------|
-| ⚛️ **React / JSX / TSX** | `useReducer`, `useState`, typed components |
-| 🔷 **TypeScript** | Classes, generics, async, interfaces, types, functions |
-| 🐍 **Python** | Classes, decorators, file processing, pandas-style logic |
-| 📄 **.env files** | Variables, comments, strings, booleans, numbers |
+### 🎯 Syntax Highlighting
+| Language | Details |
+|----------|---------|
+| ⚛️ **React / JSX / TSX** | `useReducer`, `useState`, typed components, hooks |
+| 🔷 **TypeScript** | Classes, generics, async/await, interfaces, types, functions, decorators |
+| 🐍 **Python** | Classes, decorators, file I/O, pandas-style logic, magic methods |
+| 📄 **.env files** | Variables (`#ffb86c`), strings (`#9ece6a`), numbers (`#ff5a00`), booleans (`#4dd5ff`), comments (`#607885`), export (`#bb9af7`) |
+
+### 🎨 Colorful Bracket Pairs
+Brackets are color-coded for easy matching — **6 unique colors** with matching bracket pair guides:
+
+| Pair | Color | Hex |
+|------|-------|------|
+| `()` | **Orange** | `#FF5A00` |
+| `[]` | **Cyan** | `#00E1FF` |
+| `{}` | **Green** | `#10FF00` |
+| `<>` | **Purple** | `#AD00FF` |
+| `` || `` | **Hot Pink** | `#FF0099` |
+| Last | **Yellow** | `#E7FF00` |
+
+### 🔥 Hot Pink Active Line Numbers
+Your current line number glows in **hot pink** (`#ff247f`) — never lose your place.
+
+### 🎯 Semantic Colors
+- **Functions** → Emerald green (`#00df95`)
+- **Classes** → Cyan (`#18fffb`)
+- **Keywords** → Hot pink (`#ff247f`)
+- **Strings** → Yellow (`#fdff9b`)
+- **Numbers** → Light blue (`#7accff`)
+- **Types** → Cyan (`#18fffb`)
+- **Decorators** → Purple (`#bd93f9`)
+- **Parameters** → Orange (`#ffb86c`)
+
+### 🖥️ Beautiful UI
+- Dark teal editor background (`#16222a`) — easy on the eyes
+- Custom **minimap** colors (selection, errors, warnings)
+- Styled **tabs** with hot pink active border
+- **Activity bar** with hot pink icons
+- Custom **terminal** with 16 ANSI colors
+- **Status bar**, **panel**, **side bar** — everything themed
+- **Scrollbar**, **menus**, **dropdowns**, **buttons** — fully styled
 
 ---
 
