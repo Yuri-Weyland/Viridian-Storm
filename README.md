@@ -19,34 +19,23 @@ A dark **Visual Studio Code** theme inspired by **Tokyo Night Storm** and **Drac
 | Errors | Red | `#ff2f2f` |
 | Warnings | Yellow | `#ffdd00` |
 
-## 📸 Screenshots
-
-![Screenshot 1](img/screenshot1.png)
-
-![Screenshot 2](img/screenshot2.png)
-
-![Screenshot 3](img/screenshot3.png)
-
-![Screenshot 4](img/screenshot4.png)
-
-![Screenshot 5](img/screenshot5.png)
-
-![Screenshot 6](img/screenshot6.png)
-
 ## 🚀 Installation
 
 ### From VS Code Marketplace
+
 1. Open **Extensions** (`Ctrl+Shift+X`)
 2. Search for **"Viridian Storm"**
 3. Click **Install**
 4. Open Command Palette (`Ctrl+Shift+P`) → `Preferences: Color Theme` → select **Viridian Storm**
 
 ### From .vsix file
+
 1. Download `.vsix` from [Releases](https://github.com/Yuri-Weyland/Viridian-Storm/releases)
 2. In VS Code: **Extensions** (`Ctrl+Shift+X`) → `...` → **Install from VSIX...**
 3. Select the downloaded file
 
 ### From source
+
 ```bash
 git clone https://github.com/Yuri-Weyland/Viridian-Storm.git
 cd Viridian-Storm
@@ -71,3 +60,26 @@ vsce publish
 ## 📄 License
 
 MIT © [Yuri Weyland](https://github.com/Yuri-Weyland)
+
+## 📸 Screenshots
+
+### Editor Overview (no code)
+![Editor Overview](img/screenshot.png)
+
+### React + TypeScript: useReducer Counter
+![React + TypeScript: useReducer Counter](img/screenshot1.png)
+
+### Python: Data Analysis with Pandas-style logic
+![Python: Data Analysis](img/screenshot2.png)
+
+### TypeScript: Classes, Generics & Async
+![TypeScript: Classes, Generics & Async](img/screenshot3.png)
+
+### TypeScript: Interfaces, Types & Functions
+![TypeScript: Interfaces, Types & Functions](img/screenshot4.png)
+
+### React + TypeScript: Typed Component
+![React + TypeScript: Typed Component](img/screenshot5.png)
+
+### Python: Classes, Decorators & File Processing
+![Python: Classes, Decorators & File Processing](img/screenshot6.png)
